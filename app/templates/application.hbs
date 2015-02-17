@@ -1,4 +1,6 @@
-<h2 id="title">Welcome to a simple Google Maps demo</h2>
+<div class="uk-width-medium-1-2 uk-container-center">
+
+  <h2>Welcome to a simple Google Maps demo</h2>
 
 {{google-map lat=centerLat
              lng=centerLng
@@ -9,9 +11,10 @@
              markers=model
 }}
 
-<div class="controls">
-  <label>
-    Zoom:
-    {{input type="range" value=zoom min=0 max=18 step=1}}
-  </label>
+  <div class="controls">
+    <label>
+      Zoom:
+      {{input type="range" value=zoom min=0 max=18 step=1}}
+    </label>
+  </div>
 </div>
