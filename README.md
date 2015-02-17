@@ -1,7 +1,6 @@
-# Markers-gmaps
+# Google Maps and Ember.js
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a simple project using Ember.js and the addon [ember-google-map](https://github.com/huafu/ember-google-map/).
 
 ## Prerequisites
 
@@ -15,7 +14,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/jeanleonino/ember-g-maps.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
